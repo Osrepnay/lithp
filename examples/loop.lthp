@@ -1,0 +1,3 @@
+=(_ "Lithp has no loops, only recursion")
+=(loop func(counter ifElse(<(counter 1) counter loop(-(counter 1)))))
+print(loop(10))
