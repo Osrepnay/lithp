@@ -11,7 +11,7 @@ Everything in Lithp is a function. Here are the current builtin functions:
 /(arg1, arg2, arg3, ...)
 +(arg1, arg2, arg3, ...)
 -(arg1, arg2, arg3, ...)
-ifelse(boolean, execIfTrue, execIfFalse)
+ifElse(boolean, execIfTrue, execIfFalse)
 print(value)
 ```
 See the `examples` directory for examples.  
